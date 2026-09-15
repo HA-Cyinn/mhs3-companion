@@ -1,0 +1,4839 @@
+{
+  "source": "Game8",
+  "monsters": [
+    {
+      "name": "Ajarakan",
+      "element": "Fire",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Overheated",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4443527/19a84eab5a657e3595faec07357b6e8a.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587100",
+      "resistances": {
+        "ailment": {
+          "poison": "sensitive",
+          "burn": "very_sensitive",
+          "paralysis": "very_sensitive",
+          "sleep": "resistant",
+          "blastblight": "very_resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "sensitive",
+          "thunder": "very_sensitive",
+          "ice": "resistant",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Aknosom",
+      "element": "Fire",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4440978/9e00a6e3bede5ba17f447db5bab4f53a.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586452",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "very_sensitive",
+          "paralysis": "resistant",
+          "sleep": "very_sensitive",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "sensitive",
+          "thunder": "resistant",
+          "ice": "normal",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Almudron",
+      "element": "Water",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Large Mudbulb",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4441912/3ccc29251f55557ea04efdc1e1ed5381.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586551",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "sensitive",
+          "paralysis": "resistant",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "very_sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "very_resistant",
+          "thunder": "normal",
+          "ice": "resistant",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Anjanath",
+      "element": "Fire",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Condense Heat",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4431152/86f291388a89f46535a21174594642be.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586309",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "very_sensitive",
+          "paralysis": "resistant",
+          "sleep": "resistant",
+          "blastblight": "very_sensitive",
+          "bleeding": "resistant",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "sensitive",
+          "thunder": "normal",
+          "ice": "resistant",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Arkveld",
+      "element": "Dragon",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Dragon Mantle",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442069/107b6ae54a1f1f5f705998e2310c7bc8.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587113",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "very_sensitive",
+          "paralysis": "resistant",
+          "sleep": "very_sensitive",
+          "blastblight": "sensitive",
+          "bleeding": "very_sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_sensitive",
+          "water": "very_sensitive",
+          "thunder": "very_sensitive",
+          "ice": "very_sensitive",
+          "dragon": "sensitive"
+        }
+      }
+    },
+    {
+      "name": "Arzuros",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4440985/b43acec06d6ed795fb1360ff7172ef4f.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586456",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "resistant",
+          "paralysis": "resistant",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "very_sensitive",
+          "thunder": "normal",
+          "ice": "resistant",
+          "dragon": "very_resistant"
+        }
+      }
+    },
+    {
+      "name": "Astalos",
+      "element": "Thunder",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Bolt",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4440722/69a24f1ca0232eb701ca59c0e7aea09a.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586449",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "resistant",
+          "paralysis": "very_sensitive",
+          "sleep": "resistant",
+          "blastblight": "sensitive",
+          "bleeding": "resistant",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_sensitive",
+          "water": "resistant",
+          "thunder": "very_resistant",
+          "ice": "sensitive",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Aurora Somnacanth",
+      "element": "Ice",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4441856/f5c7678f0d6a0f267c75c4a78f154b88.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586552",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "sensitive",
+          "paralysis": "resistant",
+          "sleep": "very_sensitive",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "very_sensitive",
+          "thunder": "resistant",
+          "ice": "very_resistant",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Azure Rathalos",
+      "element": "Fire",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Airborne",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4460867/711e9d34e4fcbf75ab53a93830cb3f22.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586793",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "very_sensitive",
+          "paralysis": "resistant",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "normal",
+          "thunder": "very_sensitive",
+          "ice": "resistant",
+          "dragon": "sensitive"
+        }
+      }
+    },
+    {
+      "name": "Barioth",
+      "element": "Ice",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442071/1bb4556b0b481cf228a8714550240048.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586593",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "sensitive",
+          "paralysis": "very_sensitive",
+          "sleep": "resistant",
+          "blastblight": "sensitive",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "very_sensitive",
+          "thunder": "resistant",
+          "ice": "very_resistant",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Barroth",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Mud Mantle",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4441920/22f99756c0512bcc1226f41726a1e2bc.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587045",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "resistant",
+          "paralysis": "very_sensitive",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "very_resistant",
+          "fire": "sensitive",
+          "water": "very_sensitive",
+          "thunder": "normal",
+          "ice": "resistant",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Bishaten",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Balancing",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4440990/35eecb00592f05ea0294e265e11da526.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586450",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "sensitive",
+          "paralysis": "resistant",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "resistant",
+          "water": "very_sensitive",
+          "thunder": "normal",
+          "ice": "sensitive",
+          "dragon": "very_resistant"
+        }
+      }
+    },
+    {
+      "name": "Black Diablos",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Burrowed",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442480/d8ae28ff81b3655a9785f2eb01a59470.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587109",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "very_sensitive",
+          "paralysis": "resistant",
+          "sleep": "very_sensitive",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "resistant",
+          "thunder": "normal",
+          "ice": "sensitive",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Black Gravios",
+      "element": "Fire",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4441914/1d1ae3a7b7e8772dba9bfe58d4f39f63.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586539",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "very_resistant",
+          "paralysis": "resistant",
+          "sleep": "very_sensitive",
+          "blastblight": "sensitive",
+          "bleeding": "very_sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "very_sensitive",
+          "fire": "very_sensitive",
+          "water": "sensitive",
+          "thunder": "normal",
+          "ice": "normal",
+          "dragon": "resistant"
+        }
+      }
+    },
+    {
+      "name": "Blangonga",
+      "element": "Ice",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4443624/7e9652b1b0491af37f5fdc8e7fd05ac1.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587101",
+      "resistances": {
+        "ailment": {
+          "poison": "sensitive",
+          "burn": "sensitive",
+          "paralysis": "sensitive",
+          "sleep": "resistant",
+          "blastblight": "sensitive",
+          "bleeding": "sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "normal",
+          "thunder": "resistant",
+          "ice": "very_resistant",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Blood Orange Bishaten",
+      "element": "Fire",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4441909/17d196997b753d00bfa7ac5afe39faf9.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586538",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "very_resistant",
+          "paralysis": "resistant",
+          "sleep": "resistant",
+          "blastblight": "very_resistant",
+          "bleeding": "resistant",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "sensitive",
+          "thunder": "resistant",
+          "ice": "normal",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Bloodbath Diablos",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4443282/018cba9d56a63aff083fd1e860807c29.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586795",
+      "resistances": {
+        "ailment": {
+          "poison": "unknown",
+          "burn": "unknown",
+          "paralysis": "unknown",
+          "sleep": "unknown",
+          "blastblight": "unknown",
+          "bleeding": "unknown",
+          "darkness": "unknown"
+        },
+        "element": {
+          "neutral": "very_sensitive",
+          "fire": "very_resistant",
+          "water": "sensitive",
+          "thunder": "normal",
+          "ice": "resistant",
+          "dragon": "resistant"
+        }
+      }
+    },
+    {
+      "name": "Blue Yian Kut-Ku",
+      "element": "Fire",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4441299/27a98ab55ae2bf79fe468cd0b876bbcf.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586445",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "very_sensitive",
+          "paralysis": "resistant",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_sensitive",
+          "water": "sensitive",
+          "thunder": "resistant",
+          "ice": "normal",
+          "dragon": "very_resistant"
+        }
+      }
+    },
+    {
+      "name": "Bnahabra",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4430047/877123380883af20ac922e3fc638c995.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586653",
+      "resistances": {
+        "ailment": {
+          "poison": "sensitive",
+          "burn": "sensitive",
+          "paralysis": "very_sensitive",
+          "sleep": "sensitive",
+          "blastblight": "sensitive",
+          "bleeding": "sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "resistant",
+          "fire": "sensitive",
+          "water": "resistant",
+          "thunder": "normal",
+          "ice": "resistant",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Boltreaver Astalos",
+      "element": "Thunder",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4440580/79f894906c3bff7bf308a08332bebe87.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586448",
+      "resistances": {
+        "ailment": {
+          "poison": "unknown",
+          "burn": "unknown",
+          "paralysis": "unknown",
+          "sleep": "unknown",
+          "blastblight": "unknown",
+          "bleeding": "unknown",
+          "darkness": "unknown"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "resistant",
+          "water": "resistant",
+          "thunder": "very_resistant",
+          "ice": "resistant",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Bound Azure Rathalos",
+      "element": "Fire",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Enraged (Airborne)",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Battle-Bound (Unleashed)",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4444724/652d7e5cdb6153b45f5dd5ecd8c59df1.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587047",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "very_sensitive",
+          "paralysis": "resistant",
+          "sleep": "very_sensitive",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "normal",
+          "thunder": "very_sensitive",
+          "ice": "resistant",
+          "dragon": "sensitive"
+        }
+      }
+    },
+    {
+      "name": "Bound Lunagaron",
+      "element": "Ice",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "power"
+        },
+        {
+          "name": "Battle-Bound (Unleashed)",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4451602/4815f30ab02edb904bd19f6171725850.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/588339",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "sensitive",
+          "paralysis": "very_sensitive",
+          "sleep": "very_sensitive",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "resistant",
+          "water": "very_sensitive",
+          "thunder": "resistant",
+          "ice": "very_resistant",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Brachydios",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Slime Active",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Slime Depleted",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4441476/e88e749f50dfdb88c7ff8461bb6cf9f9.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586541",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "very_sensitive",
+          "paralysis": "resistant",
+          "sleep": "very_sensitive",
+          "blastblight": "very_resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "sensitive",
+          "thunder": "normal",
+          "ice": "resistant",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Brute Tigrex",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442067/7ac45014e2eeb948fc25d9711060f818.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586608",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "very_sensitive",
+          "paralysis": "sensitive",
+          "sleep": "very_sensitive",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "sensitive",
+          "thunder": "resistant",
+          "ice": "very_sensitive",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Canyne",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4440991/d907acfba8e4e3c795f0983a4c278c3f.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586451",
+      "resistances": {
+        "ailment": {
+          "poison": "unknown",
+          "burn": "unknown",
+          "paralysis": "unknown",
+          "sleep": "unknown",
+          "blastblight": "unknown",
+          "bleeding": "unknown",
+          "darkness": "unknown"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "normal",
+          "water": "sensitive",
+          "thunder": "resistant",
+          "ice": "very_sensitive",
+          "dragon": "very_resistant"
+        }
+      }
+    },
+    {
+      "name": "Chatacabra",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Rock Mantle",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4430994/454db4fb2637bf8761ba52407bfa9091.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586322",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "resistant",
+          "paralysis": "resistant",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "normal",
+          "water": "very_sensitive",
+          "thunder": "sensitive",
+          "ice": "resistant",
+          "dragon": "very_resistant"
+        }
+      }
+    },
+    {
+      "name": "Deadeye Yian Garuga",
+      "element": "Fire",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442068/e3112707b5d1a5d423385301ca84987b.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586618",
+      "resistances": {
+        "ailment": {
+          "poison": "unknown",
+          "burn": "unknown",
+          "paralysis": "unknown",
+          "sleep": "unknown",
+          "blastblight": "unknown",
+          "bleeding": "unknown",
+          "darkness": "unknown"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "sensitive",
+          "thunder": "very_sensitive",
+          "ice": "resistant",
+          "dragon": "resistant"
+        }
+      }
+    },
+    {
+      "name": "Deviljho",
+      "element": "Dragon",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Starving",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442630/a010d9ffb24a61e6c0cc150ce531de9f.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586790",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "very_sensitive",
+          "paralysis": "resistant",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "normal",
+          "water": "normal",
+          "thunder": "sensitive",
+          "ice": "very_sensitive",
+          "dragon": "sensitive"
+        }
+      }
+    },
+    {
+      "name": "Diablos",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Burrowed",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442493/7736fbd9e87986c6397f094fa2b58aa1.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587110",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "very_sensitive",
+          "paralysis": "resistant",
+          "sleep": "very_sensitive",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "resistant",
+          "thunder": "very_sensitive",
+          "ice": "sensitive",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Dreadking Rathalos",
+      "element": "Fire",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442852/3759b93aa503f978e0f56ea0c1c7c672.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586794",
+      "resistances": {
+        "ailment": {
+          "poison": "unknown",
+          "burn": "unknown",
+          "paralysis": "unknown",
+          "sleep": "unknown",
+          "blastblight": "unknown",
+          "bleeding": "unknown",
+          "darkness": "unknown"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "resistant",
+          "thunder": "resistant",
+          "ice": "very_sensitive",
+          "dragon": "sensitive"
+        }
+      }
+    },
+    {
+      "name": "Dreadqueen Rathian",
+      "element": "Fire",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "unknown"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4440579/fc681b152bb5472a0234e5032c2b2984.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586311",
+      "resistances": {
+        "ailment": {
+          "poison": "unknown",
+          "burn": "unknown",
+          "paralysis": "unknown",
+          "sleep": "unknown",
+          "blastblight": "unknown",
+          "bleeding": "unknown",
+          "darkness": "unknown"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "resistant",
+          "thunder": "resistant",
+          "ice": "resistant",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Ebony Odogaron",
+      "element": "Dragon",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Starving",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Frenzied",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4443686/749a63b36809ec38da6a8170090ae7ef.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587103",
+      "resistances": {
+        "ailment": {
+          "poison": "very_resistant",
+          "burn": "resistant",
+          "paralysis": "very_resistant",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "resistant",
+          "water": "resistant",
+          "thunder": "resistant",
+          "ice": "resistant",
+          "dragon": "very_resistant"
+        }
+      }
+    },
+    {
+      "name": "Espinas",
+      "element": "Fire",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Sleep",
+          "attack_type": "power"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4435584/0c06106dcf8a95ea231fb1fdbac6f51b.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586536",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "very_sensitive",
+          "paralysis": "very_sensitive",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "very_resistant",
+          "fire": "very_resistant",
+          "water": "very_resistant",
+          "thunder": "very_resistant",
+          "ice": "very_resistant",
+          "dragon": "very_resistant"
+        }
+      }
+    },
+    {
+      "name": "Exotic Seregios",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442250/fff675a31d8c312f58622354c50a8260.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586622",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "very_sensitive",
+          "paralysis": "very_sensitive",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "normal",
+          "thunder": "sensitive",
+          "ice": "resistant",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Exotic Velocidrome",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4430058/269d82e9758c278364f54db33bdacdcf.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586664",
+      "resistances": {
+        "ailment": {
+          "poison": "sensitive",
+          "burn": "resistant",
+          "paralysis": "resistant",
+          "sleep": "resistant",
+          "blastblight": "sensitive",
+          "bleeding": "sensitive",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "resistant",
+          "water": "normal",
+          "thunder": "normal",
+          "ice": "sensitive",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Feral Ajarakan",
+      "element": "Fire",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Overheated",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442534/e9f763d10ccf858eabd39768fc315ded.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586612",
+      "resistances": {
+        "ailment": {
+          "poison": "sensitive",
+          "burn": "very_sensitive",
+          "paralysis": "very_sensitive",
+          "sleep": "resistant",
+          "blastblight": "very_resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "resistant",
+          "thunder": "very_sensitive",
+          "ice": "sensitive",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Feral Aknosom",
+      "element": "Ice",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Enranged",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4441906/3d6332b888d47fdc21a99fbce58ca330.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586568",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "very_sensitive",
+          "paralysis": "sensitive",
+          "sleep": "very_sensitive",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "normal",
+          "water": "resistant",
+          "thunder": "sensitive",
+          "ice": "very_resistant",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Feral Barroth",
+      "element": "Water",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Mud Mantle",
+          "attack_type": "unknown"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4443582/acb82e21f7751cdfabf09234e294c686.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/588562",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "sensitive",
+          "paralysis": "very_sensitive",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "very_sensitive",
+          "fire": "sensitive",
+          "water": "very_resistant",
+          "thunder": "normal",
+          "ice": "resistant",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Feral Bishaten",
+      "element": "Thunder",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Balancing",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4443836/e0fcd76880d3bbdb031e22fd328dd8a7.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587706",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "resistant",
+          "paralysis": "very_resistant",
+          "sleep": "very_resistant",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "resistant",
+          "water": "very_sensitive",
+          "thunder": "very_resistant",
+          "ice": "sensitive",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Feral Blangonga",
+      "element": "Thunder",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442755/790191b6c27198f16b2c517f5fc7543f.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587491",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "sensitive",
+          "paralysis": "very_sensitive",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "resistant",
+          "thunder": "very_sensitive",
+          "ice": "very_sensitive",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Feral Brachydios",
+      "element": "Dragon",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Slime Active",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4435555/6ab76ff54cb151d4702dc1b59f981454.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586613",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "very_sensitive",
+          "paralysis": "resistant",
+          "sleep": "very_sensitive",
+          "blastblight": "very_resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "very_sensitive",
+          "thunder": "sensitive",
+          "ice": "normal",
+          "dragon": "very_resistant"
+        }
+      }
+    },
+    {
+      "name": "Feral Chatacabra",
+      "element": "Thunder",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Rock Mantle",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4429668/06904e529b904dd79cc679f5e70d88a8.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/591067",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "resistant",
+          "paralysis": "very_resistant",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "normal",
+          "water": "resistant",
+          "thunder": "very_sensitive",
+          "ice": "sensitive",
+          "dragon": "very_resistant"
+        }
+      }
+    },
+    {
+      "name": "Feral Deviljho",
+      "element": "Dragon",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Starving",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4460855/f5a0094e95efe3bad0857fff86da095c.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/591696",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "very_sensitive",
+          "paralysis": "resistant",
+          "sleep": "very_sensitive",
+          "blastblight": "sensitive",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "sensitive",
+          "thunder": "very_sensitive",
+          "ice": "resistant",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Feral Espinas",
+      "element": "Fire",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4443834/222a85027c7bb22796fdbc36d4ef0df7.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587708",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "very_sensitive",
+          "paralysis": "very_sensitive",
+          "sleep": "resistant",
+          "blastblight": "very_sensitive",
+          "bleeding": "very_sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "very_resistant",
+          "fire": "very_resistant",
+          "water": "very_resistant",
+          "thunder": "very_resistant",
+          "ice": "very_resistant",
+          "dragon": "very_resistant"
+        }
+      }
+    },
+    {
+      "name": "Feral Glavenus",
+      "element": "Ice",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Overheated (Tail)",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4443638/09716eb956dd839b781b461b03931156.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587519",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "resistant",
+          "paralysis": "resistant",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "sensitive",
+          "thunder": "very_sensitive",
+          "ice": "very_resistant",
+          "dragon": "resistant"
+        }
+      }
+    },
+    {
+      "name": "Feral Gravios",
+      "element": "Unknown",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4455286/b74e2530d0bd7a6bede6fce22b987259.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/589235",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "very_resistant",
+          "paralysis": "resistant",
+          "sleep": "very_resistant",
+          "blastblight": "sensitive",
+          "bleeding": "very_sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "very_resistant",
+          "fire": "very_sensitive",
+          "water": "very_sensitive",
+          "thunder": "sensitive",
+          "ice": "resistant",
+          "dragon": "resistant"
+        }
+      }
+    },
+    {
+      "name": "Feral Great Izuchi",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Enranged",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4440979/e74e35a6040fc9f654d7e6f6eaa4be97.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/588566",
+      "resistances": {
+        "ailment": {
+          "poison": "sensitive",
+          "burn": "very_sensitive",
+          "paralysis": "sensitive",
+          "sleep": "sensitive",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "normal",
+          "thunder": "sensitive",
+          "ice": "resistant",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Feral Gypceros",
+      "element": "Water",
+      "states": [
+        {
+          "name": "Enraged",
+          "attack_type": "power"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4440876/830663c63e89e153c2e7a472e2fd4999.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586333",
+      "resistances": {
+        "ailment": {
+          "poison": "very_resistant",
+          "burn": "resistant",
+          "paralysis": "very_sensitive",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "very_sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "very_resistant",
+          "thunder": "very_resistant",
+          "ice": "resistant",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Feral Legiana",
+      "element": "Ice",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Airborne",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Enraged (Airborne)",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4455577/835d8313831491f22bd4a632c2e05cfd.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/589481",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "sensitive",
+          "paralysis": "resistant",
+          "sleep": "very_sensitive",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "resistant",
+          "water": "normal",
+          "thunder": "sensitive",
+          "ice": "very_resistant",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Feral Magnamalo",
+      "element": "Fire",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Hellfireblight Mantle",
+          "attack_type": "power"
+        },
+        {
+          "name": "Hellfireblight Critical",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4455083/5e172e685a561672c84e0a3a5825a80d.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/589480",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "resistant",
+          "paralysis": "resistant",
+          "sleep": "very_sensitive",
+          "blastblight": "very_resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "sensitive",
+          "thunder": "normal",
+          "ice": "resistant",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Feral Nerscylla",
+      "element": "Fire",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4435556/f582e8ed77944996aed4678f3f5bde17.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586487",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "very_sensitive",
+          "paralysis": "very_sensitive",
+          "sleep": "very_resistant",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "very_sensitive",
+          "fire": "very_resistant",
+          "water": "sensitive",
+          "thunder": "normal",
+          "ice": "resistant",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Feral Paolumu",
+      "element": "Thunder",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Airborne",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4440860/de0307a541a7dd9a9490d958f025084b.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587782",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "sensitive",
+          "paralysis": "very_resistant",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "very_sensitive",
+          "thunder": "very_resistant",
+          "ice": "normal",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Feral Rakna-Kadaki",
+      "element": "Water",
+      "states": [
+        {
+          "name": "Web Mantle (Legs)",
+          "attack_type": "technical"
+        },
+        {
+          "name": "No Web",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Web Mantle (Cocoon)",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442749/0c087c846dce228558d9c7af6a4c05ae.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587472",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "very_sensitive",
+          "paralysis": "resistant",
+          "sleep": "resistant",
+          "blastblight": "very_sensitive",
+          "bleeding": "resistant",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "very_sensitive",
+          "thunder": "sensitive",
+          "ice": "normal",
+          "dragon": "resistant"
+        }
+      }
+    },
+    {
+      "name": "Feral Somnacanth",
+      "element": "Thunder",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Balancing",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Balancing (Storing Power)",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4440988/eeaaab7f996bd58893c4ed7087f74b53.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586555",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "very_sensitive",
+          "paralysis": "very_sensitive",
+          "sleep": "very_resistant",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "resistant",
+          "water": "very_sensitive",
+          "thunder": "very_resistant",
+          "ice": "sensitive",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Feral Tetranadon",
+      "element": "Water",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Stuffed",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4443870/be4193920afb5490f5a0ee42faba178e.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/588609",
+      "resistances": {
+        "ailment": {
+          "poison": "sensitive",
+          "burn": "very_sensitive",
+          "paralysis": "resistant",
+          "sleep": "very_sensitive",
+          "blastblight": "very_resistant",
+          "bleeding": "resistant",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "normal",
+          "water": "very_resistant",
+          "thunder": "sensitive",
+          "ice": "normal",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Feral Tobi-Kadachi",
+      "element": "Thunder",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4443835/08f7a323271de05a54db659f24e4e88a.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587489",
+      "resistances": {
+        "ailment": {
+          "poison": "sensitive",
+          "burn": "resistant",
+          "paralysis": "very_sensitive",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "very_sensitive",
+          "thunder": "very_resistant",
+          "ice": "very_sensitive",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Feral Velocidrome (Fire)",
+      "element": "Fire",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4438609/8134509a3d2b06aabdc97b1e69ee56ff.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586326",
+      "resistances": {
+        "ailment": {
+          "poison": "sensitive",
+          "burn": "very_sensitive",
+          "paralysis": "resistant",
+          "sleep": "resistant",
+          "blastblight": "sensitive",
+          "bleeding": "sensitive",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_sensitive",
+          "water": "sensitive",
+          "thunder": "normal",
+          "ice": "resistant",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Feral Velocidrome (Ice)",
+      "element": "Ice",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4438609/8134509a3d2b06aabdc97b1e69ee56ff.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586326",
+      "resistances": {
+        "ailment": {
+          "poison": "sensitive",
+          "burn": "sensitive",
+          "paralysis": "resistant",
+          "sleep": "very_sensitive",
+          "blastblight": "sensitive",
+          "bleeding": "sensitive",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "normal",
+          "thunder": "resistant",
+          "ice": "very_sensitive",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Final Boss",
+      "element": "Dragon",
+      "states": [
+        {
+          "name": "Blightstone Protection",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Blightstone Unleashed",
+          "attack_type": "power"
+        },
+        {
+          "name": "Exposed",
+          "attack_type": "unknown"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4443277/6285d7ddcf2673fcebe2e3e313218f8f.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587066",
+      "resistances": {
+        "ailment": {
+          "poison": "sensitive",
+          "burn": "resistant",
+          "paralysis": "very_resistant",
+          "sleep": "very_resistant",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "very_resistant",
+          "fire": "sensitive",
+          "water": "resistant",
+          "thunder": "resistant",
+          "ice": "resistant",
+          "dragon": "sensitive"
+        }
+      }
+    },
+    {
+      "name": "Fulgur Anjanath",
+      "element": "Thunder",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Electric Charge",
+          "attack_type": "speed"
+        },
+        {
+          "name": "High-Voltage Charge",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442753/97ba5bab953cfed73ae75a848a739370.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587105",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "resistant",
+          "paralysis": "very_sensitive",
+          "sleep": "resistant",
+          "blastblight": "very_sensitive",
+          "bleeding": "resistant",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "normal",
+          "water": "resistant",
+          "thunder": "very_resistant",
+          "ice": "sensitive",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Garangolm",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Lava Mantle",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Moss Mantle",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4441921/b180f1881006be49ec4ef23aa27d9777.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586547",
+      "resistances": {
+        "ailment": {
+          "poison": "sensitive",
+          "burn": "resistant",
+          "paralysis": "resistant",
+          "sleep": "resistant",
+          "blastblight": "very_sensitive",
+          "bleeding": "very_sensitive",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "very_sensitive",
+          "fire": "normal",
+          "water": "normal",
+          "thunder": "sensitive",
+          "ice": "resistant",
+          "dragon": "very_resistant"
+        }
+      }
+    },
+    {
+      "name": "Gargwa",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4440977/8161ccf7839476973cbb703ef2a774aa.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586697",
+      "resistances": {
+        "ailment": {
+          "poison": "sensitive",
+          "burn": "sensitive",
+          "paralysis": "sensitive",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "sensitive",
+          "thunder": "sensitive",
+          "ice": "sensitive",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Glavenus",
+      "element": "Fire",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Overheated (Tail)",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4443623/03b535bd6e4e94e5c6dc016760a68b9c.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587099",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "very_sensitive",
+          "paralysis": "resistant",
+          "sleep": "sensitive",
+          "blastblight": "very_sensitive",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "sensitive",
+          "thunder": "very_sensitive",
+          "ice": "resistant",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Goss Harag",
+      "element": "Ice",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Enraged (Frost Knuckles)",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Enraged (Frost Blade)",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442756/fe389d742d855b55bf368ba960a9f461.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587107",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "sensitive",
+          "paralysis": "resistant",
+          "sleep": "very_sensitive",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "very_sensitive",
+          "thunder": "resistant",
+          "ice": "very_resistant",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Gravios",
+      "element": "Fire",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442748/46cc2dfd0d7fa62c9008a5dbb38cd055.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587104",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "very_resistant",
+          "paralysis": "resistant",
+          "sleep": "very_sensitive",
+          "blastblight": "sensitive",
+          "bleeding": "very_sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "very_resistant",
+          "fire": "very_sensitive",
+          "water": "sensitive",
+          "thunder": "normal",
+          "ice": "normal",
+          "dragon": "resistant"
+        }
+      }
+    },
+    {
+      "name": "Great Izuchi",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Enranged",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4440983/d94003ccf8778fc07946e0a68bbf99f5.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586561",
+      "resistances": {
+        "ailment": {
+          "poison": "sensitive",
+          "burn": "resistant",
+          "paralysis": "sensitive",
+          "sleep": "sensitive",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "normal",
+          "water": "resistant",
+          "thunder": "sensitive",
+          "ice": "normal",
+          "dragon": "very_resistant"
+        }
+      }
+    },
+    {
+      "name": "Great Poogie",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4462320/ab822f8fc6badb2325284a6e48228898.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587097",
+      "resistances": {
+        "ailment": {
+          "poison": "unknown",
+          "burn": "unknown",
+          "paralysis": "unknown",
+          "sleep": "unknown",
+          "blastblight": "unknown",
+          "bleeding": "unknown",
+          "darkness": "unknown"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "very_sensitive",
+          "thunder": "normal",
+          "ice": "resistant",
+          "dragon": "very_resistant"
+        }
+      }
+    },
+    {
+      "name": "Green Nargacuga",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4441919/f2b214b679b0e4fc172ec089755c5b55.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586548",
+      "resistances": {
+        "ailment": {
+          "poison": "sensitive",
+          "burn": "resistant",
+          "paralysis": "resistant",
+          "sleep": "very_sensitive",
+          "blastblight": "very_sensitive",
+          "bleeding": "very_sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "resistant",
+          "water": "very_resistant",
+          "thunder": "sensitive",
+          "ice": "very_sensitive",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Green Plesioth",
+      "element": "Water",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4440831/b3f1570ca35048dc80dbbeb22017b857.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586315",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "resistant",
+          "paralysis": "sensitive",
+          "sleep": "very_sensitive",
+          "blastblight": "very_sensitive",
+          "bleeding": "resistant",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "resistant",
+          "water": "very_resistant",
+          "thunder": "sensitive",
+          "ice": "very_sensitive",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Grimclaw Tigrex",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442074/907bba2f81ce4387dc8379dc1af16a36.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586800",
+      "resistances": {
+        "ailment": {
+          "poison": "unknown",
+          "burn": "unknown",
+          "paralysis": "unknown",
+          "sleep": "unknown",
+          "blastblight": "unknown",
+          "bleeding": "unknown",
+          "darkness": "unknown"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "resistant",
+          "thunder": "sensitive",
+          "ice": "very_sensitive",
+          "dragon": "resistant"
+        }
+      }
+    },
+    {
+      "name": "Gypceros",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4431053/b15d2742e0da4e90078ffa6b6203d98e.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586320",
+      "resistances": {
+        "ailment": {
+          "poison": "very_resistant",
+          "burn": "resistant",
+          "paralysis": "very_sensitive",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "very_sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "very_sensitive",
+          "thunder": "very_resistant",
+          "ice": "resistant",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Hellblade Glavenus",
+      "element": "Fire",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442796/f46c7ee4cbc058cbdb68a532492eed11.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586792",
+      "resistances": {
+        "ailment": {
+          "poison": "unknown",
+          "burn": "unknown",
+          "paralysis": "unknown",
+          "sleep": "unknown",
+          "blastblight": "unknown",
+          "bleeding": "unknown",
+          "darkness": "unknown"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "sensitive",
+          "thunder": "resistant",
+          "ice": "resistant",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Honed Glavenus",
+      "element": "Fire",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Overheated Throat",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Overheated Tail",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4430304/e86af7a6a2a73715cf1f6215ca1c0eb3.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/584588",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "very_sensitive",
+          "paralysis": "resistant",
+          "sleep": "sensitive",
+          "blastblight": "very_sensitive",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "sensitive",
+          "thunder": "very_sensitive",
+          "ice": "resistant",
+          "dragon": "sensitive"
+        }
+      }
+    },
+    {
+      "name": "Invasive Arzuros",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Invading",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4441907/1378d92d43fb849c89ca27ac6884369b.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586488",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "resistant",
+          "paralysis": "resistant",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "normal",
+          "thunder": "resistant",
+          "ice": "resistant",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Invasive Diablos",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Invading",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4444726/a950ab93239c3c485faa4ccd3d2e1a5d.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586562",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "very_sensitive",
+          "paralysis": "resistant",
+          "sleep": "very_sensitive",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_sensitive",
+          "water": "resistant",
+          "thunder": "normal",
+          "ice": "sensitive",
+          "dragon": "resistant"
+        }
+      }
+    },
+    {
+      "name": "Invasive Khezu",
+      "element": "Thunder",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "power"
+        },
+        {
+          "name": "Invading",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4443285/ba1d2b612af2a0d656cda56ba3517c1d.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586579",
+      "resistances": {
+        "ailment": {
+          "poison": "very_resistant",
+          "burn": "very_resistant",
+          "paralysis": "sensitive",
+          "sleep": "very_resistant",
+          "blastblight": "very_resistant",
+          "bleeding": "very_resistant",
+          "darkness": "very_resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "normal",
+          "thunder": "very_resistant",
+          "ice": "normal",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Invasive Nerscylla",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "power"
+        },
+        {
+          "name": "Invading",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4443284/605adccdeae5ac3776a0bb0782de9d38.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586512",
+      "resistances": {
+        "ailment": {
+          "poison": "very_resistant",
+          "burn": "very_sensitive",
+          "paralysis": "very_sensitive",
+          "sleep": "very_resistant",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "very_sensitive",
+          "thunder": "resistant",
+          "ice": "normal",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Invasive Odogaron",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Invading",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Frenzied",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "resistances": {
+        "ailment": {
+          "poison": "unknown",
+          "burn": "unknown",
+          "paralysis": "unknown",
+          "sleep": "unknown",
+          "blastblight": "unknown",
+          "bleeding": "unknown",
+          "darkness": "unknown"
+        },
+        "element": {
+          "neutral": "unknown",
+          "fire": "unknown",
+          "water": "unknown",
+          "thunder": "unknown",
+          "ice": "unknown",
+          "dragon": "unknown"
+        }
+      }
+    },
+    {
+      "name": "Invasive Plesioth",
+      "element": "Water",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "power"
+        },
+        {
+          "name": "Invading",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4443286/cd20e96aa67d2fc26597cabf2cad04b7.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586484",
+      "resistances": {
+        "ailment": {
+          "poison": "very_resistant",
+          "burn": "resistant",
+          "paralysis": "very_resistant",
+          "sleep": "very_resistant",
+          "blastblight": "very_resistant",
+          "bleeding": "very_resistant",
+          "darkness": "very_resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "resistant",
+          "water": "very_sensitive",
+          "thunder": "sensitive",
+          "ice": "very_sensitive",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Invasive Seregios",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Invading",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4441535/af58f180312587a2e27ddfe5ae5d36fe.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586477",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "very_sensitive",
+          "paralysis": "very_sensitive",
+          "sleep": "very_sensitive",
+          "blastblight": "very_sensitive",
+          "bleeding": "very_sensitive",
+          "darkness": "very_sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "very_sensitive",
+          "thunder": "sensitive",
+          "ice": "resistant",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Invasive Shogun Ceanataur",
+      "element": "Water",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Invading",
+          "attack_type": "speed"
+        },
+        {
+          "name": "No Shell",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4444101/2e3e3c1086e26f689738786f01cab49e.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586511",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "resistant",
+          "paralysis": "very_sensitive",
+          "sleep": "very_sensitive",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "very_resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "very_resistant",
+          "thunder": "very_sensitive",
+          "ice": "very_sensitive",
+          "dragon": "very_resistant"
+        }
+      }
+    },
+    {
+      "name": "Invasive Yian Garuga",
+      "element": "Fire",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "power"
+        },
+        {
+          "name": "Invading",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4438489/6c6b3e304c777b40716765a385e08794.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586398",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "very_sensitive",
+          "paralysis": "resistant",
+          "sleep": "very_sensitive",
+          "blastblight": "sensitive",
+          "bleeding": "very_sensitive",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "sensitive",
+          "thunder": "very_sensitive",
+          "ice": "normal",
+          "dragon": "resistant"
+        }
+      }
+    },
+    {
+      "name": "Ivory Lagiacrus",
+      "element": "Thunder",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "power"
+        },
+        {
+          "name": "Electrify",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4440830/9ec9aeb30114af7f3663e0d39388586b.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586447",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "resistant",
+          "paralysis": "very_sensitive",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "very_sensitive",
+          "thunder": "very_resistant",
+          "ice": "normal",
+          "dragon": "resistant"
+        }
+      }
+    },
+    {
+      "name": "Jade Barroth",
+      "element": "Ice",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Snow Mantle",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442747/9443fcf78bd83647b983fee678a9f491.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587046",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "sensitive",
+          "paralysis": "very_sensitive",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "very_sensitive",
+          "fire": "sensitive",
+          "water": "normal",
+          "thunder": "very_resistant",
+          "ice": "very_resistant",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Khezu",
+      "element": "Thunder",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4441916/cb1c4389a86876fadf5f680ac7f5e91f.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586546",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "resistant",
+          "paralysis": "very_sensitive",
+          "sleep": "very_sensitive",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "very_resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "normal",
+          "thunder": "very_resistant",
+          "ice": "very_sensitive",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Kulu-Ya-Ku",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Rock Prep",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4441902/63a56ed126dfdb91c8db39d1ec2f93af.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586712",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "very_sensitive",
+          "paralysis": "resistant",
+          "sleep": "resistant",
+          "blastblight": "sensitive",
+          "bleeding": "very_sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_sensitive",
+          "water": "sensitive",
+          "thunder": "normal",
+          "ice": "resistant",
+          "dragon": "very_resistant"
+        }
+      }
+    },
+    {
+      "name": "Lagiacrus",
+      "element": "Thunder",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Electrify",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4438490/b7480c885f0d7a9585aaadf8eed4f5b9.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586310",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "resistant",
+          "paralysis": "very_sensitive",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "very_sensitive",
+          "thunder": "very_resistant",
+          "ice": "normal",
+          "dragon": "resistant"
+        }
+      }
+    },
+    {
+      "name": "Legiana",
+      "element": "Ice",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Enraged (Airborne)",
+          "attack_type": "power"
+        },
+        {
+          "name": "Airborne",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442501/1ba514a955e6c568f320eb267448e3c2.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587102",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "very_resistant",
+          "paralysis": "resistant",
+          "sleep": "very_sensitive",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "very_sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "resistant",
+          "water": "normal",
+          "thunder": "very_resistant",
+          "ice": "sensitive",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Ludroth",
+      "element": "Water",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4431181/53389e407138bef05c7a8e65720e6fa6.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586314",
+      "resistances": {
+        "ailment": {
+          "poison": "sensitive",
+          "burn": "sensitive",
+          "paralysis": "sensitive",
+          "sleep": "resistant",
+          "blastblight": "sensitive",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "resistant",
+          "fire": "sensitive",
+          "water": "very_sensitive",
+          "thunder": "resistant",
+          "ice": "normal",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Lunagaron",
+      "element": "Ice",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442584/6d9d552a619f10649685d28c968ac63f.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587111",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "sensitive",
+          "paralysis": "very_sensitive",
+          "sleep": "very_sensitive",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "very_sensitive",
+          "thunder": "resistant",
+          "ice": "very_resistant",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Magnamalo",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Hellfireblight Mantle",
+          "attack_type": "power"
+        },
+        {
+          "name": "Hellfireblight Critical",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4440986/d889e7190d74bddd41e8f720a9e73916.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586563",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "very_sensitive",
+          "paralysis": "resistant",
+          "sleep": "very_sensitive",
+          "blastblight": "very_resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "sensitive",
+          "thunder": "resistant",
+          "ice": "normal",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Malzeno",
+      "element": "Dragon",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Blood Rite Active",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Exposed",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442494/7c633f99fe673a82856e637fc25e06d7.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587471",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "sensitive",
+          "paralysis": "resistant",
+          "sleep": "very_sensitive",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "very_sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "resistant",
+          "water": "very_sensitive",
+          "thunder": "very_resistant",
+          "ice": "resistant",
+          "dragon": "sensitive"
+        }
+      }
+    },
+    {
+      "name": "Mizutsune",
+      "element": "Water",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Bubble Mantle",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Bubble Mantle (Slippery)",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4441801/354507a56db4582a5d1d4b4ba476e8b0.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586535",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "resistant",
+          "paralysis": "resistant",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "normal",
+          "water": "very_resistant",
+          "thunder": "sensitive",
+          "ice": "very_sensitive",
+          "dragon": "resistant"
+        }
+      }
+    },
+    {
+      "name": "Namielle",
+      "element": "Water",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Abyssal Charge",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Exposed",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4446873/6dee4795eb93feed9541a085f65f2fc9.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587517",
+      "resistances": {
+        "ailment": {
+          "poison": "sensitive",
+          "burn": "resistant",
+          "paralysis": "very_sensitive",
+          "sleep": "very_sensitive",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "very_resistant",
+          "thunder": "very_sensitive",
+          "ice": "resistant",
+          "dragon": "resistant"
+        }
+      }
+    },
+    {
+      "name": "Nargacuga",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4441917/cfc849d9a6a1028cff596ce128854668.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586549",
+      "resistances": {
+        "ailment": {
+          "poison": "sensitive",
+          "burn": "resistant",
+          "paralysis": "resistant",
+          "sleep": "very_sensitive",
+          "blastblight": "very_sensitive",
+          "bleeding": "very_sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "resistant",
+          "water": "very_resistant",
+          "thunder": "sensitive",
+          "ice": "very_sensitive",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Nerscylla",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4430120/adf5774eecbc28a6fc215eee4656b7de.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586323",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "sensitive",
+          "paralysis": "very_sensitive",
+          "sleep": "very_resistant",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "very_sensitive",
+          "thunder": "resistant",
+          "ice": "normal",
+          "dragon": "very_resistant"
+        }
+      }
+    },
+    {
+      "name": "Nibelsnarf",
+      "element": "Water",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Camouflaged",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442088/13cdd452b5faff114f7bcd72e7f23725.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586540",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "very_sensitive",
+          "paralysis": "resistant",
+          "sleep": "resistant",
+          "blastblight": "very_sensitive",
+          "bleeding": "resistant",
+          "darkness": "very_sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_sensitive",
+          "water": "normal",
+          "thunder": "resistant",
+          "ice": "sensitive",
+          "dragon": "very_resistant"
+        }
+      }
+    },
+    {
+      "name": "Odogaron",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Starving",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Frenzied",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442598/c83ee3dca57ed79a65132f5dff72da39.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587112",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "resistant",
+          "paralysis": "sensitive",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_sensitive",
+          "water": "normal",
+          "thunder": "resistant",
+          "ice": "sensitive",
+          "dragon": "very_resistant"
+        }
+      }
+    },
+    {
+      "name": "Paolumu",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Airborne",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4429669/a60a8e410a9f644fdd334b3b83e2c8bb.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586324",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "sensitive",
+          "paralysis": "resistant",
+          "sleep": "sensitive",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "very_resistant",
+          "thunder": "resistant",
+          "ice": "very_sensitive",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Pink Rathian",
+      "element": "Fire",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4438491/ac7da0176083e6e4a7c825195038ded6.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586312",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "very_sensitive",
+          "paralysis": "resistant",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "very_sensitive",
+          "thunder": "resistant",
+          "ice": "normal",
+          "dragon": "sensitive"
+        }
+      }
+    },
+    {
+      "name": "Plesioth",
+      "element": "Water",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4433642/b2fd108128aa63edb50df86fdb66b07a.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586316",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "resistant",
+          "paralysis": "sensitive",
+          "sleep": "very_sensitive",
+          "blastblight": "very_sensitive",
+          "bleeding": "resistant",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "resistant",
+          "water": "very_resistant",
+          "thunder": "sensitive",
+          "ice": "normal",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Pukei-Pukei",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Poison Active (Munch)",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Poison Active (Crunch)",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4441303/221c75b2a96376466c65be546580fded.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586545",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "resistant",
+          "paralysis": "sensitive",
+          "sleep": "sensitive",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "normal",
+          "water": "very_resistant",
+          "thunder": "sensitive",
+          "ice": "resistant",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Purple Gypceros",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4431128/63e194cf2c9479b780b800bd0ad690f7.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586319",
+      "resistances": {
+        "ailment": {
+          "poison": "very_resistant",
+          "burn": "resistant",
+          "paralysis": "very_sensitive",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "very_sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "very_sensitive",
+          "thunder": "very_resistant",
+          "ice": "resistant",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Purple Ludroth",
+      "element": "Water",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Enranged",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4440984/a751d563daecb2918034db00a79182ae.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586453",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "sensitive",
+          "paralysis": "resistant",
+          "sleep": "resistant",
+          "blastblight": "sensitive",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "very_resistant",
+          "thunder": "resistant",
+          "ice": "very_sensitive",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Rakna-Kadaki",
+      "element": "Fire",
+      "states": [
+        {
+          "name": "Web Mantle (Legs)",
+          "attack_type": "technical"
+        },
+        {
+          "name": "No Web",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Web Mantle (Cocoon)",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442710/ec0f0cbc63982c0099a7434b5877886a.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587106",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "very_sensitive",
+          "paralysis": "resistant",
+          "sleep": "resistant",
+          "blastblight": "very_sensitive",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "resistant",
+          "thunder": "normal",
+          "ice": "resistant",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Rathalos",
+      "element": "Fire",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Enraged (Airborne)",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442746/3a79a32786dfaa0ff4b8bc11323ae307.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587108",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "very_sensitive",
+          "paralysis": "resistant",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "normal",
+          "thunder": "resistant",
+          "ice": "very_sensitive",
+          "dragon": "sensitive"
+        }
+      }
+    },
+    {
+      "name": "Rathian",
+      "element": "Fire",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4430309/dda2dc58a269d5b9762a712f3e63b064.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586313",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "very_sensitive",
+          "paralysis": "resistant",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "normal",
+          "thunder": "resistant",
+          "ice": "very_sensitive",
+          "dragon": "sensitive"
+        }
+      }
+    },
+    {
+      "name": "Red Khezu",
+      "element": "Thunder",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Electric Charge",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4441915/6ca8207c71c244be7681c27452bcb80e.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586544",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "resistant",
+          "paralysis": "very_sensitive",
+          "sleep": "very_sensitive",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "very_resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_sensitive",
+          "water": "sensitive",
+          "thunder": "very_resistant",
+          "ice": "normal",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Rey Dau",
+      "element": "Thunder",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Fulgurite Mantle",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442503/a3c81f239ca142b7f3e05cf9751aeb5d.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587470",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "resistant",
+          "paralysis": "very_sensitive",
+          "sleep": "very_sensitive",
+          "blastblight": "sensitive",
+          "bleeding": "resistant",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "normal",
+          "water": "resistant",
+          "thunder": "very_resistant",
+          "ice": "sensitive",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Royal Ludroth",
+      "element": "Water",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4431191/be921cab61be720bd5759209e0f4f648.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586317",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "sensitive",
+          "paralysis": "resistant",
+          "sleep": "resistant",
+          "blastblight": "sensitive",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "very_resistant",
+          "thunder": "resistant",
+          "ice": "normal",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Sand Barioth",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442066/902c4c4f2a1f44dd856d51372d513ad3.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586605",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "very_sensitive",
+          "paralysis": "resistant",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "very_sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "normal",
+          "thunder": "resistant",
+          "ice": "sensitive",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Seregios",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4441913/65302fc0363b2bfef805296819d2df33.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586550",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "resistant",
+          "paralysis": "very_sensitive",
+          "sleep": "very_sensitive",
+          "blastblight": "very_sensitive",
+          "bleeding": "very_resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "normal",
+          "thunder": "sensitive",
+          "ice": "resistant",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Shogun Ceanataur",
+      "element": "Water",
+      "states": [
+        {
+          "name": "Shell (Skull)",
+          "attack_type": "speed"
+        },
+        {
+          "name": "No Shell",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Shell (Seashell)",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4441911/33f2e99462141c345ccbd965317829c3.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587114",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "resistant",
+          "paralysis": "resistant",
+          "sleep": "very_sensitive",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "resistant",
+          "water": "very_sensitive",
+          "thunder": "sensitive",
+          "ice": "normal",
+          "dragon": "very_resistant"
+        }
+      }
+    },
+    {
+      "name": "Shrouded Nerscylla",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4443627/ab04c4857e20dd5328b62ebbf39256be.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587098",
+      "resistances": {
+        "ailment": {
+          "poison": "very_resistant",
+          "burn": "sensitive",
+          "paralysis": "very_resistant",
+          "sleep": "very_sensitive",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "very_resistant",
+          "thunder": "normal",
+          "ice": "resistant",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Silverwind Nargacuga",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "unknown"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4441918/96a09972e435f204e98eac68f65a47c7.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586542",
+      "resistances": {
+        "ailment": {
+          "poison": "unknown",
+          "burn": "unknown",
+          "paralysis": "unknown",
+          "sleep": "unknown",
+          "blastblight": "unknown",
+          "bleeding": "unknown",
+          "darkness": "unknown"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "resistant",
+          "water": "very_resistant",
+          "thunder": "sensitive",
+          "ice": "very_sensitive",
+          "dragon": "resistant"
+        }
+      }
+    },
+    {
+      "name": "Somnacanth",
+      "element": "Water",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Balancing",
+          "attack_type": "unknown"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4440989/63952cd8f063107d57a99b12ad1d4895.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586457",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "sensitive",
+          "paralysis": "resistant",
+          "sleep": "very_resistant",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "resistant",
+          "water": "very_resistant",
+          "thunder": "sensitive",
+          "ice": "normal",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Soulseer Mizutsune",
+      "element": "Water",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442012/03ac63feae845c10908226c881cd3672.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586606",
+      "resistances": {
+        "ailment": {
+          "poison": "unknown",
+          "burn": "unknown",
+          "paralysis": "unknown",
+          "sleep": "unknown",
+          "blastblight": "unknown",
+          "bleeding": "unknown",
+          "darkness": "unknown"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "resistant",
+          "water": "very_resistant",
+          "thunder": "sensitive",
+          "ice": "very_sensitive",
+          "dragon": "resistant"
+        }
+      }
+    },
+    {
+      "name": "Stygian Zinogre",
+      "element": "Dragon",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Dragon Shroud",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Battle Shroud",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442065/a68df6f6c04fc3370c98c466174d0cbe.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586607",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "resistant",
+          "paralysis": "resistant",
+          "sleep": "resistant",
+          "blastblight": "sensitive",
+          "bleeding": "resistant",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_sensitive",
+          "water": "resistant",
+          "thunder": "sensitive",
+          "ice": "resistant",
+          "dragon": "very_resistant"
+        }
+      }
+    },
+    {
+      "name": "Tetranadon",
+      "element": "Water",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Stuffed",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4440987/e15136dc02f7eb40b7342bbbe23b4759.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586455",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "resistant",
+          "paralysis": "resistant",
+          "sleep": "very_sensitive",
+          "blastblight": "very_sensitive",
+          "bleeding": "resistant",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "resistant",
+          "water": "very_resistant",
+          "thunder": "sensitive",
+          "ice": "normal",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Thunder Serpent Narwa",
+      "element": "Thunder",
+      "states": [
+        {
+          "name": "Thunder Mantle",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Mind Connection",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Exposed",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4447166/4b4c13e27c056f2a750a38a25134db74.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/590072",
+      "resistances": {
+        "ailment": {
+          "poison": "sensitive",
+          "burn": "very_resistant",
+          "paralysis": "very_resistant",
+          "sleep": "very_resistant",
+          "blastblight": "very_resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_sensitive",
+          "water": "normal",
+          "thunder": "very_resistant",
+          "ice": "sensitive",
+          "dragon": "resistant"
+        }
+      }
+    },
+    {
+      "name": "Thunderlord Zinogre",
+      "element": "Thunder",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4442070/c7ac31c2753a8553b8e85b2cd070d905.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586796",
+      "resistances": {
+        "ailment": {
+          "poison": "unknown",
+          "burn": "unknown",
+          "paralysis": "unknown",
+          "sleep": "unknown",
+          "blastblight": "unknown",
+          "bleeding": "unknown",
+          "darkness": "unknown"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "resistant",
+          "water": "resistant",
+          "thunder": "very_resistant",
+          "ice": "sensitive",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Tigrex",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4441958/44716916cefb7762ec94af874d9449d4.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586559",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "very_sensitive",
+          "paralysis": "sensitive",
+          "sleep": "very_sensitive",
+          "blastblight": "resistant",
+          "bleeding": "very_sensitive",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "normal",
+          "thunder": "sensitive",
+          "ice": "very_sensitive",
+          "dragon": "resistant"
+        }
+      }
+    },
+    {
+      "name": "Tobi-Kadachi",
+      "element": "Thunder",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Electric Charge",
+          "attack_type": "technical"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4429672/eb923df6614952b706a01a6ed601f923.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586318",
+      "resistances": {
+        "ailment": {
+          "poison": "sensitive",
+          "burn": "resistant",
+          "paralysis": "very_sensitive",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "resistant",
+          "water": "sensitive",
+          "thunder": "very_resistant",
+          "ice": "normal",
+          "dragon": "very_sensitive"
+        }
+      }
+    },
+    {
+      "name": "Velkhana",
+      "element": "Ice",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Ice Mantle",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Freezing Fog Mantle",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4447558/942fda0525cd70869bb611e5fc565f2a.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587515",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "sensitive",
+          "paralysis": "very_sensitive",
+          "sleep": "very_sensitive",
+          "blastblight": "sensitive",
+          "bleeding": "very_sensitive",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "very_sensitive",
+          "thunder": "resistant",
+          "ice": "very_resistant",
+          "dragon": "resistant"
+        }
+      }
+    },
+    {
+      "name": "Velocidrome",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4430058/269d82e9758c278364f54db33bdacdcf.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586321",
+      "resistances": {
+        "ailment": {
+          "poison": "sensitive",
+          "burn": "resistant",
+          "paralysis": "resistant",
+          "sleep": "resistant",
+          "blastblight": "sensitive",
+          "bleeding": "sensitive",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "resistant",
+          "water": "normal",
+          "thunder": "normal",
+          "ice": "sensitive",
+          "dragon": "very_resistant"
+        }
+      }
+    },
+    {
+      "name": "Wind Serpent Ibushi",
+      "element": "Dragon",
+      "states": [
+        {
+          "name": "Wind Mantle",
+          "attack_type": "power"
+        },
+        {
+          "name": "Mind Connection",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Exposed",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4447165/d48f9ed92b856971c11f1f6698ce0901.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/590072",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "very_resistant",
+          "paralysis": "very_resistant",
+          "sleep": "very_resistant",
+          "blastblight": "very_resistant",
+          "bleeding": "resistant",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "sensitive",
+          "water": "normal",
+          "thunder": "very_sensitive",
+          "ice": "very_resistant",
+          "dragon": "resistant"
+        }
+      }
+    },
+    {
+      "name": "Yama Tsukami",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        },
+        {
+          "name": "Open Mouth",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4441860/75cb7ea6dbc3ac4ebf4cda51508ffad9.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586515",
+      "resistances": {
+        "ailment": {
+          "poison": "very_resistant",
+          "burn": "very_resistant",
+          "paralysis": "very_resistant",
+          "sleep": "very_resistant",
+          "blastblight": "very_resistant",
+          "bleeding": "resistant",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_sensitive",
+          "water": "normal",
+          "thunder": "very_resistant",
+          "ice": "resistant",
+          "dragon": "sensitive"
+        }
+      }
+    },
+    {
+      "name": "Yama Tsukami (Green)",
+      "element": "Non-Elemental",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4444578/743e2ec84775af106004c211424248a6.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/587848",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "very_resistant",
+          "paralysis": "very_resistant",
+          "sleep": "very_resistant",
+          "blastblight": "very_resistant",
+          "bleeding": "resistant",
+          "darkness": "sensitive"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_sensitive",
+          "water": "normal",
+          "thunder": "very_resistant",
+          "ice": "resistant",
+          "dragon": "sensitive"
+        }
+      }
+    },
+    {
+      "name": "Yian Garuga",
+      "element": "Fire",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4441304/7c61e07e0ed239bc395d0a20c41f9974.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586543",
+      "resistances": {
+        "ailment": {
+          "poison": "very_sensitive",
+          "burn": "very_sensitive",
+          "paralysis": "resistant",
+          "sleep": "very_sensitive",
+          "blastblight": "sensitive",
+          "bleeding": "very_sensitive",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_resistant",
+          "water": "sensitive",
+          "thunder": "very_sensitive",
+          "ice": "resistant",
+          "dragon": "normal"
+        }
+      }
+    },
+    {
+      "name": "Yian Kut-Ku",
+      "element": "Fire",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Enraged",
+          "attack_type": "speed"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4429674/433fe7b0f37825d90b81403ba6453007.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586325",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "very_sensitive",
+          "paralysis": "resistant",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "very_sensitive",
+          "water": "normal",
+          "thunder": "resistant",
+          "ice": "sensitive",
+          "dragon": "very_resistant"
+        }
+      }
+    },
+    {
+      "name": "Zinogre",
+      "element": "Thunder",
+      "states": [
+        {
+          "name": "Normal",
+          "attack_type": "speed"
+        },
+        {
+          "name": "Electric Charge",
+          "attack_type": "technical"
+        },
+        {
+          "name": "Thunder Supercharge",
+          "attack_type": "power"
+        }
+      ],
+      "source": "Game8",
+      "image_url": "https://img.game8.co/4441970/344eb0928705e1f53c4a1bb8ecd3c273.png/show",
+      "source_url": "https://game8.co/games/Monster-Hunter-Stories-3/archives/586564",
+      "resistances": {
+        "ailment": {
+          "poison": "resistant",
+          "burn": "resistant",
+          "paralysis": "very_sensitive",
+          "sleep": "resistant",
+          "blastblight": "resistant",
+          "bleeding": "resistant",
+          "darkness": "very_resistant"
+        },
+        "element": {
+          "neutral": "normal",
+          "fire": "normal",
+          "water": "resistant",
+          "thunder": "very_resistant",
+          "ice": "very_resistant",
+          "dragon": "very_sensitive"
+        }
+      }
+    }
+  ]
+}
