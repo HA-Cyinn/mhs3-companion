@@ -38,7 +38,8 @@ function buildHome() {
       <div class="title"><h1><span>MHS3</span> Companion</h1><button data-go="#/rules">❓ Counters</button></div>
       <input type="search" placeholder="🔎  Rechercher un monstre..." autocomplete="off" aria-label="Rechercher">
     </div>
-    <div class="list">${rows}<div class="empty-msg" hidden>Aucun monstre trouvé.</div></div>`;
+    <div class="list">${rows}<div class="empty-msg" hidden>Aucun monstre trouvé.</div>
+      <p class="credit">Projet de fan non officiel. Données et images : <a href="https://game8.co/games/Monster-Hunter-Stories-3" target="_blank" rel="noopener">Game8</a>. Monster Hunter Stories 3 © CAPCOM.</p></div>`;
 
   const input = el.querySelector("input");
   const items = [...el.querySelectorAll(".row")];
