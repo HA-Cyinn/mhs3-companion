@@ -127,7 +127,8 @@ function route() {
   const hash = location.hash;
   const leavingHome = app.firstChild === home;
   const isMonster = hash.startsWith("#/m/") && byId.has(hash.slice(4));
-  document.documentElement.classList.toggle("hide-scrollbar", isMonster || hash === "#/rules");
+  const isHome = !hash || hash === "#/";
+  document.documentElement.classList.toggle("hide-scrollbar", isMonster || hash === "#/rules" || isHome);
   if (hash.startsWith("#/m/")) {
     const m = byId.get(hash.slice(4));
     if (!m) { location.hash = "#/"; return; }

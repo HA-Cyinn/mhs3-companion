@@ -1,40 +1,25 @@
-# MHS3 Companion — Python
+# MHS3 Companion — Web
 
-Prototype de compagnon mobile-first pour Monster Hunter Stories 3.
+Compagnon web installable (PWA), mobile-first, pour Monster Hunter Stories 3.
 
 > Projet de fan non officiel. Données et images : [Game8](https://game8.co/games/Monster-Hunter-Stories-3). Monster Hunter Stories 3 © CAPCOM.
 
-## Architecture
-
-- **Une seule fenêtre** : les écrans sont des `CTkFrame`, aucune popup pour naviguer.
-- **`monsters.json`** : données issues du tableau Game8 fourni.
-- **`Monster`** : modèle métier qui lit les données JSON.
-- **`counters.py`** : règle universelle Power → Speed → Technical → Power.
-- **UI** : accueil, détail monstre et règles dans la même fenêtre.
-
-Le JSON contient actuellement 131 entrées de monstres et leurs patterns d'attaque disponibles dans la source fournie. Les valeurs `Unknown` présentes dans la source sont conservées comme telles plutôt que devinées.
-
-## Lancer
+Le site est servi depuis `web/` et fonctionne hors ligne grâce à son service worker. Les fichiers sources des données et des images sont conservés dans `app/data/` ; le script Python de génération les transforme en ressources pour le site.
 
 ```powershell
 python -m venv .venv
 .venv\Scripts\python.exe -m pip install -r requirements.txt
-.venv\Scripts\python.exe app.py
+.venv\Scripts\python.exe scripts\build_web.py
+.venv\Scripts\python.exe -m http.server 8765 --directory web
 ```
 
-## Version mobile (PWA)
+Ouvre ensuite `http://localhost:8765/` sur le PC ou `http://<ip-du-pc>:8765/` sur un téléphone connecté au même Wi-Fi. Pour installer l’application sur le téléphone, ouvre le site en HTTPS et choisis « Ajouter à l'écran d'accueil ». GitHub Pages déploie automatiquement le contenu de `web/` sur chaque push vers `main`.
 
-Le dossier `web/` contient un prototype installable sur téléphone, en HTML/CSS/JS sans dépendance, utilisable hors ligne (service worker).
-
-```powershell
-python scripts\build_web.py          # régénère web/data.json et web/img/ depuis app/data
-python -m http.server 8765 --directory web
-```
-
-Ouvre ensuite `http://<ip-du-pc>:8765/` depuis le téléphone (même Wi-Fi), puis « Ajouter à l'écran d'accueil ». Pour la mise en ligne, héberge `web/` en HTTPS (GitHub Pages, Netlify…), et incrémente `VERSION` dans `web/sw.js` après chaque régénération.
+Après une modification du code web ou des données, incrémente `VERSION` dans `web/sw.js` pour renouveler le cache des appareils.
 
 ## Tests
 
 ```powershell
+.venv\Scripts\python.exe -m pip install pytest
 .venv\Scripts\python.exe -m pytest -q
 ```

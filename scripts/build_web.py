@@ -24,7 +24,7 @@ LEVEL_CODES = {
 
 
 def safe_name(key: str) -> str:
-    # Same rule as app/core/images.py so cached files can be matched.
+    # Match the sanitized filenames used by the source image cache.
     return "".join(c if c.isalnum() or c in "-_" else "_" for c in key).strip("_") or "image"
 
 
