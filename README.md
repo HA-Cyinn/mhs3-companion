@@ -2,6 +2,8 @@
 
 Prototype de compagnon mobile-first pour Monster Hunter Stories 3.
 
+> Projet de fan non officiel. Données et images : [Game8](https://game8.co/games/Monster-Hunter-Stories-3). Monster Hunter Stories 3 © CAPCOM.
+
 ## Architecture
 
 - **Une seule fenêtre** : les écrans sont des `CTkFrame`, aucune popup pour naviguer.
