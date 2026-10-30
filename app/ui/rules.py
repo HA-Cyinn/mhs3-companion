@@ -1,5 +1,5 @@
 import customtkinter as ctk
-from .styles import TYPE_COLORS, TYPE_ICONS
+from .styles import TYPE_COLORS, TYPE_ICONS, credit_label
 
 
 class RulesPage(ctk.CTkFrame):
@@ -28,3 +28,5 @@ class RulesPage(ctk.CTkFrame):
                 text_color=TYPE_COLORS[counter],
                 font=ctk.CTkFont(size=17, weight="bold"),
             ).pack(side="left", padx=18)
+
+        credit_label(self).pack(pady=(18, 10))

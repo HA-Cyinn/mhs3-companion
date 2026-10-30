@@ -20,3 +20,13 @@ TYPE_ICONS = {
     "technical": "🟢",
     "speed": "🔵",
 }
+
+CREDIT_TEXT = (
+    "Projet de fan non officiel. Données et images : Game8. "
+    "Monster Hunter Stories 3 © CAPCOM."
+)
+
+
+def credit_label(parent):
+    return ctk.CTkLabel(parent, text=CREDIT_TEXT, text_color=TEXT_MUTED,
+                        font=ctk.CTkFont(size=11), wraplength=600)

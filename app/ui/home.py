@@ -5,7 +5,7 @@ from app.core.data import load_monsters
 from app.core.images import load_image_async
 from .monster import MonsterPage
 from .rules import RulesPage
-from .styles import TYPE_COLORS
+from .styles import TYPE_COLORS, credit_label
 
 
 class HomePage(ctk.CTk):
@@ -86,7 +86,8 @@ class HomePage(ctk.CTk):
 
         list_frame = ctk.CTkScrollableFrame(page, label_text=f"Monstres  •  {len(self.monsters)}",
                                             label_font=ctk.CTkFont(size=15, weight="bold"))
-        list_frame.pack(fill="both", expand=True, padx=20, pady=(0, 18))
+        list_frame.pack(fill="both", expand=True, padx=20, pady=(0, 6))
+        credit_label(page).pack(pady=(0, 10))
 
         rows = []  # (monster, row frame), built once and only shown/hidden when filtering
         empty_label = ctk.CTkLabel(list_frame, text="Aucun monstre trouvé.", text_color="#9aa3af")

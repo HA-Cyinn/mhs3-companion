@@ -1,7 +1,7 @@
 import customtkinter as ctk
 from app.core.monster import Monster
 from app.core.images import load_image_async
-from .styles import TYPE_COLORS, TYPE_ICONS
+from .styles import TYPE_COLORS, TYPE_ICONS, credit_label
 
 
 class TypeBox(ctk.CTkFrame):
@@ -75,6 +75,7 @@ class MonsterPage(ctk.CTkFrame):
 
         self._build_combat_panel(top, column=1)
         self._build_resistances(scroll)
+        credit_label(scroll).pack(pady=(6, 14))
 
     def _build_combat_panel(self, parent, column):
         panel = ctk.CTkFrame(parent, fg_color="#151a21", corner_radius=16)
