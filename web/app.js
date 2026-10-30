@@ -15,6 +15,7 @@ let homeScroll = 0;
 let rulesView = null;
 
 const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const CREDIT = `<p class="credit">Projet de fan non officiel. Données et images : <a href="https://game8.co/games/Monster-Hunter-Stories-3" target="_blank" rel="noopener">Game8</a>. Monster Hunter Stories 3 © CAPCOM.</p>`;
 const tag = (c) => `<span class="tag ${ATTACK[c][2]}">${ATTACK[c][0]}</span>`;
 const counterTag = (c) => (COUNTER[c] ? tag(COUNTER[c]) : `<span class="tag u">—</span>`);
 const firstKnown = (m) => m.s.find((s) => COUNTER[s[1]]);
@@ -38,8 +39,7 @@ function buildHome() {
       <div class="title"><h1><span>MHS3</span> Companion</h1><button data-go="#/rules">❓ Counters</button></div>
       <input type="search" placeholder="🔎  Rechercher un monstre..." autocomplete="off" aria-label="Rechercher">
     </div>
-    <div class="list">${rows}<div class="empty-msg" hidden>Aucun monstre trouvé.</div>
-      <p class="credit">Projet de fan non officiel. Données et images : <a href="https://game8.co/games/Monster-Hunter-Stories-3" target="_blank" rel="noopener">Game8</a>. Monster Hunter Stories 3 © CAPCOM.</p></div>`;
+    <div class="list">${rows}<div class="empty-msg" hidden>Aucun monstre trouvé.</div>${CREDIT}</div>`;
 
   const input = el.querySelector("input");
   const items = [...el.querySelectorAll(".row")];
@@ -85,7 +85,8 @@ function monsterView(m) {
       <section><h3>Tous les états d'attaque</h3>${states}</section>
       <section><h3>Résistances</h3><div class="res">
         ${resTable("🧪 Ailments", AILMENTS, m.a)}${resTable("⚔️ Éléments", ELEMENTS, m.r)}</div></section>
-    </div>`;
+              ${CREDIT}
+            </div>`;
   return el;
 }
 
@@ -93,7 +94,7 @@ function buildRules() {
   const rule = (a, b) => `<div class="rule"><span class="${a}">${ATTACK[a][1]} ${ATTACK[a][0]}</span><em>→ contre →</em><span class="${b}">${ATTACK[b][1]} ${ATTACK[b][0]}</span></div>`;
   const el = document.createElement("div");
   el.innerHTML = `<div class="bar"><button class="ghost" data-back>← Retour</button></div>
-    <div class="page"><h2>Mécanique des counters</h2>${rule("p", "s")}${rule("s", "t")}${rule("t", "p")}</div>`;
+    <div class="page"><h2>Mécanique des counters</h2>${rule("p", "s")}${rule("s", "t")}${rule("t", "p")}${CREDIT}</div>`;
   return el;
 }
 
