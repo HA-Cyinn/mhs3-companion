@@ -133,4 +133,19 @@ fetch("data.json").then((r) => r.json()).then((data) => {
   route();
 });
 
-if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");
+if ("serviceWorker" in navigator) {
+  let hasControlledPage = Boolean(navigator.serviceWorker.controller);
+  let refreshing = false;
+  navigator.serviceWorker.addEventListener("controllerchange", () => {
+    if (!hasControlledPage) {
+      hasControlledPage = true;
+      return;
+    }
+    if (refreshing) return;
+    refreshing = true;
+    window.location.reload();
+  });
+  navigator.serviceWorker.register("sw.js").catch((error) => {
+    console.error("Service worker registration failed:", error);
+  });
+}
