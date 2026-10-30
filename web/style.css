@@ -6,6 +6,8 @@
 * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 html, body { margin: 0; background: var(--bg); color: var(--text);
   font: 16px/1.3 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+html.hide-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }
+html.hide-scrollbar::-webkit-scrollbar { display: none; }
 #app { max-width: 640px; margin: 0 auto; min-height: 100dvh;
   padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left); }
 
@@ -19,6 +21,12 @@ button.ghost { background: transparent; padding: 0 8px; font-weight: 600; }
 button:active { opacity: .7; }
 input[type=search] { width: 100%; height: 48px; border-radius: 12px; border: 1px solid var(--border);
   background: var(--card); color: var(--text); padding: 0 14px; font-size: 16px; }
+.alphabet { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px; padding-top: 8px; }
+.letter { min-width: 34px; min-height: 36px; padding: 0 7px; border: 1px solid var(--border);
+  border-radius: 9px; background: var(--card); font-size: 14px; }
+.letter.all { min-width: 48px; }
+.letter.active { background: #2563eb; border-color: #2563eb; }
+.letter:disabled { opacity: .35; cursor: not-allowed; }
 
 .list { padding: 0 12px 24px; }
 .row { display: flex; align-items: center; gap: 12px; background: var(--card); border-radius: 14px;

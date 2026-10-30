@@ -27,37 +27,62 @@ function buildHome() {
   const rows = monsters.map((m) => {
     const k = firstKnown(m);
     const combat = k ? `<div class="combat">${tag(k[1])}<b>→</b>${counterTag(k[1])}</div>` : "";
-    return `<a class="row" href="#/m/${m.id}" data-n="${esc(m.n.toLowerCase())}">
+    const name = m.n.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    return `<a class="row" href="#/m/${m.id}" data-n="${esc(name)}" data-first="${name[0]}">
       ${img(m, "thumb")}
       <div class="info"><div class="name">${esc(m.n)}</div><div class="elem">${esc(m.e)}</div></div>
       ${combat}</a>`;
   }).join("");
+  const initials = new Set(monsters.map((m) =>
+    m.n.normalize("NFD").replace(/[\u0300-\u036f]/g, "").charAt(0).toUpperCase()
+  ));
+  const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").map((letter) =>
+    `<button class="letter" type="button" data-letter="${letter}" aria-pressed="false"${initials.has(letter) ? "" : " disabled"}>${letter}</button>`
+  ).join("");
 
   const el = document.createElement("div");
   el.innerHTML = `
     <div class="top">
       <div class="title"><h1><span>MHS3</span> Companion</h1><button data-go="#/rules">❓ Counters</button></div>
       <input type="search" placeholder="🔎  Rechercher un monstre..." autocomplete="off" aria-label="Rechercher">
+      <nav class="alphabet" aria-label="Filtrer les monstres par initiale">
+        <button class="letter all active" type="button" data-letter="" aria-pressed="true">Tous</button>${alphabet}
+      </nav>
     </div>
     <div class="list">${rows}<div class="empty-msg" hidden>Aucun monstre trouvé.</div>${CREDIT}</div>`;
 
   const input = el.querySelector("input");
   const items = [...el.querySelectorAll(".row")];
   const empty = el.querySelector(".empty-msg");
+  const letterButtons = [...el.querySelectorAll(".letter")];
+  let selectedLetter = "";
   let timer;
+  const filterItems = () => {
+    const q = input.value.trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    let shown = 0;
+    for (const r of items) {
+      const matchesLetter = !selectedLetter || r.dataset.first === selectedLetter.toLowerCase();
+      const hide = !r.dataset.n.includes(q) || !matchesLetter;
+      if (r.hidden !== hide) r.hidden = hide;
+      if (!hide) shown++;
+    }
+    empty.hidden = shown > 0;
+  };
   input.addEventListener("input", () => {
     clearTimeout(timer);
-    timer = setTimeout(() => {
-      const q = input.value.trim().toLowerCase();
-      let shown = 0;
-      for (const r of items) {
-        const hide = !r.dataset.n.includes(q);
-        if (r.hidden !== hide) r.hidden = hide;
-        if (!hide) shown++;
-      }
-      empty.hidden = shown > 0;
-    }, 80);
+    timer = setTimeout(filterItems, 80);
   });
+  for (const button of letterButtons) {
+    button.addEventListener("click", () => {
+      selectedLetter = button.dataset.letter;
+      for (const option of letterButtons) {
+        const active = option === button;
+        option.classList.toggle("active", active);
+        option.setAttribute("aria-pressed", String(active));
+      }
+      filterItems();
+    });
+  }
   return el;
 }
 
@@ -101,6 +126,8 @@ function buildRules() {
 function route() {
   const hash = location.hash;
   const leavingHome = app.firstChild === home;
+  const isMonster = hash.startsWith("#/m/") && byId.has(hash.slice(4));
+  document.documentElement.classList.toggle("hide-scrollbar", isMonster || hash === "#/rules");
   if (hash.startsWith("#/m/")) {
     const m = byId.get(hash.slice(4));
     if (!m) { location.hash = "#/"; return; }
