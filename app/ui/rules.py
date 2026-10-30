@@ -3,10 +3,13 @@ from .styles import TYPE_COLORS, TYPE_ICONS, credit_label
 
 
 class RulesPage(ctk.CTkFrame):
-    def __init__(self, parent, on_back):
+    def __init__(self, parent, on_back, on_home):
         super().__init__(parent, fg_color="transparent")
-        ctk.CTkButton(self, text="← Retour", width=90, command=on_back).pack(
-            anchor="w", padx=20, pady=(18, 8)
+        navigation = ctk.CTkFrame(self, fg_color="transparent")
+        navigation.pack(fill="x", padx=20, pady=(18, 8))
+        ctk.CTkButton(navigation, text="← Retour", width=90, command=on_back).pack(side="left")
+        ctk.CTkButton(navigation, text="⌂ Accueil", width=100, command=on_home).pack(
+            side="left", padx=(8, 0)
         )
         ctk.CTkLabel(
             self, text="Mécanique des counters",

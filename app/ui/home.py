@@ -59,11 +59,11 @@ class HomePage(ctk.CTk):
         self._show(self._home_page)
 
     def show_monster(self, monster):
-        self.navigate(MonsterPage(self, monster, self.back))
+        self.navigate(MonsterPage(self, monster, self.back, self.show_home))
 
     def show_rules(self):
         if self._rules_page is None:
-            self._rules_page = RulesPage(self, self.back)
+            self._rules_page = RulesPage(self, self.back, self.show_home)
         self.navigate(self._rules_page)
 
     # --- Home page (built once, kept in memory) ----------------------------

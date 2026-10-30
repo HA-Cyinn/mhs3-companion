@@ -15,7 +15,7 @@ let homeScroll = 0;
 let rulesView = null;
 
 const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
-const CREDIT = `<p class="credit">Projet de fan non officiel. Données et images : <a href="https://game8.co/games/Monster-Hunter-Stories-3" target="_blank" rel="noopener">Game8</a>. Monster Hunter Stories 3 © CAPCOM.</p>`;
+const CREDIT = `<footer class="credit">Projet de fan non officiel. Données et images : <a href="https://game8.co/games/Monster-Hunter-Stories-3" target="_blank" rel="noopener">Game8</a>. Monster Hunter Stories 3 © CAPCOM.</footer>`;
 const tag = (c) => `<span class="tag ${ATTACK[c][2]}">${ATTACK[c][0]}</span>`;
 const counterTag = (c) => (COUNTER[c] ? tag(COUNTER[c]) : `<span class="tag u">—</span>`);
 const firstKnown = (m) => m.s.find((s) => COUNTER[s[1]]);
@@ -78,7 +78,7 @@ function monsterView(m) {
     `<div class="state"><span class="sn">${esc(n)}</span>${tag(c)}<b>→</b>${counterTag(c)}</div>`).join("");
   const el = document.createElement("div");
   el.innerHTML = `
-    <div class="bar"><button class="ghost" data-back>← Retour</button></div>
+    <div class="bar"><button class="ghost" data-back>← Retour</button><button class="ghost" data-go="#/">⌂ Accueil</button></div>
     <div class="page">
       <div class="hero">${img(m, "")}<div><h2>${esc(m.n)}</h2><div class="elem">${esc(m.e)}</div></div></div>
       ${main}
@@ -93,7 +93,7 @@ function monsterView(m) {
 function buildRules() {
   const rule = (a, b) => `<div class="rule"><span class="${a}">${ATTACK[a][1]} ${ATTACK[a][0]}</span><em>→ contre →</em><span class="${b}">${ATTACK[b][1]} ${ATTACK[b][0]}</span></div>`;
   const el = document.createElement("div");
-  el.innerHTML = `<div class="bar"><button class="ghost" data-back>← Retour</button></div>
+  el.innerHTML = `<div class="bar"><button class="ghost" data-back>← Retour</button><button class="ghost" data-go="#/">⌂ Accueil</button></div>
     <div class="page"><h2>Mécanique des counters</h2>${rule("p", "s")}${rule("s", "t")}${rule("t", "p")}${CREDIT}</div>`;
   return el;
 }

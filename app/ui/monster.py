@@ -19,13 +19,17 @@ class TypeBox(ctk.CTkFrame):
 
 
 class MonsterPage(ctk.CTkFrame):
-    def __init__(self, parent, monster: Monster, on_back):
+    def __init__(self, parent, monster: Monster, on_back, on_home):
         super().__init__(parent, fg_color="#101216")
         self.monster = monster
         self._images = {}
 
-        ctk.CTkButton(self, text="←  Retour", width=95, fg_color="transparent",
-                      hover_color="#191c22", command=on_back).pack(anchor="w", padx=20, pady=(16, 4))
+        navigation = ctk.CTkFrame(self, fg_color="transparent")
+        navigation.pack(fill="x", padx=20, pady=(16, 4))
+        ctk.CTkButton(navigation, text="←  Retour", width=95, fg_color="transparent",
+                      hover_color="#191c22", command=on_back).pack(side="left")
+        ctk.CTkButton(navigation, text="⌂  Accueil", width=105, fg_color="transparent",
+                      hover_color="#191c22", command=on_home).pack(side="left", padx=(8, 0))
 
         scroll = ctk.CTkScrollableFrame(self, fg_color="transparent")
         scroll.pack(fill="both", expand=True, padx=18, pady=(0, 14))

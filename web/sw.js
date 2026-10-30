@@ -1,6 +1,6 @@
 "use strict";
 // Bump VERSION after regenerating the assets so clients refresh their cache.
-const VERSION = "v3";
+const VERSION = "v4";
 const CACHE = `mhs3-${VERSION}`;
 
 self.addEventListener("install", (event) => {
