@@ -15,13 +15,24 @@ Le JSON contient actuellement 131 entrées de monstres et leurs patterns d'attaq
 ## Lancer
 
 ```powershell
-py -m venv .venv
-.venv\\Scripts\\python.exe -m pip install -r requirements.txt
-.venv\\Scripts\\python.exe app.py
+python -m venv .venv
+.venv\Scripts\python.exe -m pip install -r requirements.txt
+.venv\Scripts\python.exe app.py
 ```
+
+## Version mobile (PWA)
+
+Le dossier `web/` contient un prototype installable sur téléphone, en HTML/CSS/JS sans dépendance, utilisable hors ligne (service worker).
+
+```powershell
+python scripts\build_web.py          # régénère web/data.json et web/img/ depuis app/data
+python -m http.server 8765 --directory web
+```
+
+Ouvre ensuite `http://<ip-du-pc>:8765/` depuis le téléphone (même Wi-Fi), puis « Ajouter à l'écran d'accueil ». Pour la mise en ligne, héberge `web/` en HTTPS (GitHub Pages, Netlify…), et incrémente `VERSION` dans `web/sw.js` après chaque régénération.
 
 ## Tests
 
 ```powershell
-.venv\\Scripts\\python.exe -m pytest -q
+.venv\Scripts\python.exe -m pytest -q
 ```

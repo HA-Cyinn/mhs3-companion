@@ -154,13 +154,13 @@ class MonsterPage(ctk.CTkFrame):
             title="🧪 Ailment Resistances",
             values=self.monster.resistances.get("ailment", {}),
             labels=[
-                ("☠️", "Poison", "poison"),
+                ("💀", "Poison", "poison"),
                 ("🔥", "Brûlure", "burn"),
                 ("⚡", "Paralysie", "paralysis"),
                 ("😴", "Sommeil", "sleep"),
                 ("💥", "Fléau explosion", "blastblight"),
                 ("🩸", "Saignement", "bleeding"),
-                ("👁️", "Cécité", "darkness"),
+                ("🙈", "Cécité", "darkness"),
             ],
         )
 
@@ -174,7 +174,7 @@ class MonsterPage(ctk.CTkFrame):
                 ("🔥", "Feu", "fire"),
                 ("💧", "Eau", "water"),
                 ("⚡", "Foudre", "thunder"),
-                ("❄️", "Glace", "ice"),
+                ("🧊", "Glace", "ice"),
                 ("🐉", "Dragon", "dragon"),
             ],
         )

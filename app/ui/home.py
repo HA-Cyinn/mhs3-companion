@@ -1,3 +1,5 @@
+import queue
+
 import customtkinter as ctk
 from app.core.data import load_monsters
 from app.core.images import load_image_async
@@ -16,17 +18,57 @@ class HomePage(ctk.CTk):
         self.monsters = load_monsters()
         self.current_page = None
         self._images = {}
-        self.show_home()
+        self._history = []
+        self._rules_page = None
+        # Worker threads must not touch Tk (the mainloop may not be running yet);
+        # they queue UI updates that the main thread drains.
+        self._ui_queue = queue.Queue()
+        self._drain_ui_queue()
+        self._home_page = self._build_home()
+        self._show(self._home_page)
 
-    def clear_page(self):
-        if self.current_page is not None:
-            self.current_page.destroy()
+    def _drain_ui_queue(self):
+        try:
+            for _ in range(10):
+                self._ui_queue.get_nowait()()
+        except queue.Empty:
+            pass
+        self.after(30, self._drain_ui_queue)
 
-    def show_home(self):
-        self.clear_page()
-        page = ctk.CTkFrame(self, fg_color="#101216")
+    # --- Navigation -------------------------------------------------------
+    def _show(self, page):
+        """Pack the new page first, then hide the old one, to avoid a blank flash."""
+        old = self.current_page
         page.pack(fill="both", expand=True)
         self.current_page = page
+        if old is not None and old is not page:
+            old.pack_forget()
+            if old not in (self._home_page, self._rules_page):
+                old.destroy()
+
+    def navigate(self, page):
+        self._history.append(self.current_page)
+        self._show(page)
+
+    def back(self):
+        if self._history:
+            self._show(self._history.pop())
+
+    def show_home(self):
+        self._history.clear()
+        self._show(self._home_page)
+
+    def show_monster(self, monster):
+        self.navigate(MonsterPage(self, monster, self.back))
+
+    def show_rules(self):
+        if self._rules_page is None:
+            self._rules_page = RulesPage(self, self.back)
+        self.navigate(self._rules_page)
+
+    # --- Home page (built once, kept in memory) ----------------------------
+    def _build_home(self):
+        page = ctk.CTkFrame(self, fg_color="#101216")
 
         header = ctk.CTkFrame(page, fg_color="transparent")
         header.pack(fill="x", padx=28, pady=(22, 8))
@@ -46,16 +88,14 @@ class HomePage(ctk.CTk):
                                             label_font=ctk.CTkFont(size=15, weight="bold"))
         list_frame.pack(fill="both", expand=True, padx=20, pady=(0, 18))
 
-        def render(monsters):
-            for widget in list_frame.winfo_children():
-                widget.destroy()
-            if not monsters:
-                ctk.CTkLabel(list_frame, text="Aucun monstre trouvé.", text_color="#9aa3af").pack(pady=30)
-                return
+        rows = []  # (monster, row frame), built once and only shown/hidden when filtering
+        empty_label = ctk.CTkLabel(list_frame, text="Aucun monstre trouvé.", text_color="#9aa3af")
 
+        def build_rows(monsters):
             for monster in monsters:
                 row = ctk.CTkFrame(list_frame, fg_color="#191c22", corner_radius=14, height=92)
                 row.pack(fill="x", padx=5, pady=5)
+                rows.append((monster, row))
                 row.grid_propagate(False)
                 row.grid_columnconfigure(0, weight=0)  # image
                 row.grid_columnconfigure(1, weight=1)  # nom + élément
@@ -127,29 +167,38 @@ class HomePage(ctk.CTk):
 
                 if monster.image_url:
                     def ready(image, label=image_label, key=monster.name):
-                        if image is None or not label.winfo_exists():
+                        if image is None:
                             return
                         def update():
                             if not label.winfo_exists():
                                 return
                             self._images[key] = ctk.CTkImage(light_image=image, dark_image=image, size=image.size)
                             label.configure(image=self._images[key], text="")
-                        self.after(0, update)
+                        self._ui_queue.put(update)
                     load_image_async(monster.image_url, monster.name, (105, 78), ready)
 
-        def on_search(_event=None):
+        search_job = None
+
+        def apply_filter():
             q = search.get().strip().lower()
-            render([m for m in self.monsters if q in m.name.lower()])
+            empty_label.pack_forget()
+            for _, row in rows:
+                row.pack_forget()
+            visible = 0
+            for monster, row in rows:
+                if q in monster.name.lower():
+                    row.pack(fill="x", padx=5, pady=5)
+                    visible += 1
+            if not visible:
+                empty_label.pack(pady=30)
+
+        def on_search(_event=None):
+            # Debounce so fast typing does not re-layout the list on every key.
+            nonlocal search_job
+            if search_job is not None:
+                self.after_cancel(search_job)
+            search_job = self.after(150, apply_filter)
 
         search.bind("<KeyRelease>", on_search)
-        render(self.monsters)
-
-    def show_monster(self, monster):
-        self.clear_page()
-        self.current_page = MonsterPage(self, monster, self.show_home)
-        self.current_page.pack(fill="both", expand=True)
-
-    def show_rules(self):
-        self.clear_page()
-        self.current_page = RulesPage(self, self.show_home)
-        self.current_page.pack(fill="both", expand=True)
+        build_rows(self.monsters)
+        return page
